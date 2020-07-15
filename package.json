@@ -1,0 +1,27 @@
+{
+  "name": "network-graph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "Uttam Rahane",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "5.16.0",
+    "webcola": "3.4.0",
+    "d3-sankey": "0.12.3"
+  },
+  "devDependencies": {
+    "@types/d3": "^5.7.2",
+    "prettier": "^2.0.5",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.9.6"
+  }
+}
